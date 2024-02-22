@@ -2,7 +2,7 @@
 FROM python:alpine
 
 # Specify your e-mail address as the maintainer of the container image
-LABEL maintainer="yourname@pdx.edu"
+LABEL maintainer="amrit@pdx.edu"
 
 # Copy the contents of the current directory into the container directory /app
 COPY . /app
